@@ -4,11 +4,19 @@
       3) Display the results in the appropriate element
 */
 function recArea(){
-
+      let n1 = parseFloat(document.getElementById("l").value);
+      let n2 = parseFloat(document.getElementById("w").value);
+      let op = document.getElementById("output");
+      let a = n1 * n2;
+      op.innerHTML = a;
 }
 
 function recPerimeter(){
-
+let n1 = parseFloat(document.getElementById("l").value);
+      let n2 = parseFloat(document.getElementById("w").value);
+      let op = document.getElementById("output");
+      let perimeter = 2* (n1 + n2);
+      op.innerHTML = p;
 }
 
 
